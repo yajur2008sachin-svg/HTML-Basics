@@ -1,0 +1,18 @@
+1. What steps did you follow to create your webpage?
+First, I set up the basic HTML5 boilerplate structure with <!DOCTYPE html>, <html>, <head>, and <body> tags. Next, I added the page title, my main heading, and an introductory paragraph. Then, I created an unordered list for my hobbies, added a hyperlink to my favorite website, and embedded an image. Finally, I added bonus elements like horizontal rules, line breaks, text formatting tags, and comments to keep the code organized.
+
+
+2. Which HTML tags did you learn today?
+Today I learned <strong>, <em>.
+
+
+3. What difficulties did you face while completing the task?
+Initially, my image did not load properly because I copied the webpage link instead of the direct image URL. I also had to figure out how to make the external link open in a new browser tab.
+
+
+4. How did you solve those difficulties?
+I fixed the image issue by right-clicking the image online and selecting "Copy Image Address" to get a direct URL, and I added an "alt" attribute for accessibility. For the link, I researched anchor tag attributes and added target="_blank" so it opens in a new tab.
+
+
+5. What new things did you learn from this assignment?
+I learned how different HTML elements structure content on a webpage, the importance of semantic tags like <strong> and <em> for emphasizing text, and how clean code organization using comments makes a file easier to read and maintain.
