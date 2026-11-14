@@ -1,0 +1,14 @@
+1. What is the difference between radio buttons and checkboxes?
+Radio buttons (<input type="radio">) allow the user to select only ONE option from a group of mutually exclusive choices (by sharing the same "name" attribute). Checkboxes (<input type="checkbox">) allow the user to select zero, one, or MULTIPLE options independently at the same time.
+
+2. What is the purpose of the "<label>" tag?
+The <label> tag defines a descriptive text caption for an <input> element. Linking a label to an input using the "for" attribute (matching the input's "id") improves accessibility for screen readers and allows users to click directly on the text label to focus or select the input field.
+
+3. What is the difference between "<th>" and "<td>"?
+<th> stands for "Table Header" and is used for column or row headings; browsers automatically render its text as bold and centered. <td> stands for "Table Data" and is used for standard data cells, which browsers render as regular, left-aligned text by default.
+
+4. Why do we use semantic HTML elements?
+Semantic HTML elements (like <header>, <nav>, <main>, <section>, and <footer>) clearly describe the meaning and role of different parts of a webpage to both developers and browsers. This improves search engine optimization (SEO), helps assistive technologies like screen readers navigate the page, and makes code easier to read and maintain.
+
+5. Which part of today's task was most challenging?
+The most challenging part is to get the input like input name ,date of birth ,password.
