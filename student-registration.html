@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student registration</title>
+</head>
+<body>
+    <header>
+        <h1>ABES Engineering College - Student Portal</h1>
+        <nav>
+            <a href="#registration-section">Student Registration</a> |
+            <a href="#academic-section">Academic Details</a> |
+            <a href="#footer-info">Contact Info</a>
+        </nav>
+        <hr>
+    </header>
+    <main>
+    <section>
+    <form>
+        <input type="text" placeholder="Enter your name">
+        <br>
+        <input type="email" placeholder="Enter your email">
+        <br>
+        <input type="tel" placeholder="Enter your phone number">
+        <br>
+        <input type="password" placeholder="Enter your password">
+        <br>
+        <span>DOB : </span>
+        <input type="date" placeholder="Enter your date your birth">
+        <br>
+        <span>Gender :</span>
+        <label for="101">
+        <input type="radio" name="Male">Male
+        </label>
+        <label for="102">
+        <input type="radio" name="Female">Female
+        </label>
+        <br>
+        <span>course:</span>
+        <select name="course">
+            <option>CSE</option>
+            <option>ECE</option>
+            <option>Mechanical</option>
+            <option>DS</option>
+            <option>AIML</option>
+        </select>
+        <br>
+        <span>Hobbies :</span>
+        <label>
+            <input type="checkbox">Playing Football
+        </label>
+        <label>
+            <input type="checkbox">Reading books
+        </label>
+        <label>
+            <input type="checkbox">coading
+        </label>
+        <br>
+        <textarea placeholder="please add feedback"></textarea>
+        <br>
+        <button type="submit">summit</button>
+        <br>
+        <button type="reset">resert</button>
+    </form>
+    </section>
+    <br>
+    <hr>
+    <h2>Student Acadmic details</h2>
+    <table border="1" bordercolor="black" cellspacing="0" cellpadding="8">
+        <tr>
+            <th>Students name</th>
+            <th>Roll number</th>
+            <th>Branch</th>
+            <th>Semester</th>
+            <th>College</th>
+        </tr>
+        <tr>
+            <td>Shivansh</td>
+            <td>25</td>
+            <td>CSE</td>
+            <td>second</td>
+            <td>ABES</td>
+        </tr>
+        <tr>
+            <td>Ayush</td>
+            <td>32</td>
+            <td>ECE</td>
+            <td>first</td>
+            <td>ABES</td>
+        </tr>
+        <tr>
+            <td>Sachin</td>
+            <td>34</td>
+            <td>AIML</td>
+            <td>third</td>
+            <td>ABES</td>
+        </tr>
+    </table>
+    </main>
+    <hr>
+    <footer id="footer-info">
+        <p>&copy; 2026 ABES Engineering College. All rights reserved.</p>
+        <p>Contact: admissions@abes.ac.in</p>
+    </footer>
+    
+    
+</body>
+</html>
