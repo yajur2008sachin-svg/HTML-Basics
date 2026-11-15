@@ -1,0 +1,16 @@
+1. What is CSS and why do we use it?
+CSS stands for Cascading Style Sheets. We use it to control the visual appearance, colors, fonts, and layout of HTML webpages, separating content structure from design.
+
+2. What is the difference between inline, internal and external CSS?
+- Inline CSS applies styles directly inside an HTML tag using the "style" attribute, affecting only that single element.
+- Internal CSS is placed inside a "<style>" tag within the HTML "<head>" section and styles a single webpage.
+- External CSS lives in a separate ".css" file linked via the "<link>" tag, allowing you to style multiple webpages consistently from one file.
+
+3. What is the difference between class and ID selectors?
+A class selector (written with a dot, like .profile-card) can be reused on multiple HTML elements across a page. An ID selector (written with a hash, like #main-heading) is unique and should only be used once per page to target a specific element.
+
+4. Which CSS properties did you use today?
+I used color, background-color, font-family, font-size, font-weight, text-align, text-decoration, line-height, border, border-radius, box-shadow, width, height, margin, and padding.
+
+5. What challenges did you face while styling your webpage?
+[Write 1–2 sentences about your experience—for example: Adjusting the spacing with margin and padding so the card looked centered, or picking a color palette with good contrast.]
