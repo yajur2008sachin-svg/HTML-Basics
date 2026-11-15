@@ -1,0 +1,61 @@
+body {
+  background-color: #f0f4f8;
+  color: #1e293b;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 40px 20px;
+}
+.profile-card {
+  background-color: #ffffff;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px;
+  border: 2px solid #cbd5e1;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+#main-heading {
+  color: #0f172a;
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid #3b82f6;
+  margin-bottom: 15px;
+}
+.intro-text {
+  font-size: 1.05rem;
+  color: #475569;
+  text-align: center;
+  margin-bottom: 25px;
+}
+.hobbies-list {
+  text-align: left;
+  background-color: #f8fafc;
+  padding: 15px 35px;
+  border-radius: 8px;
+  margin-bottom: 25px;
+}
+.hobbies-list li {
+  margin-bottom: 8px;
+  color: #334155;
+}
+.cta-link {
+  display: inline-block;
+  background-color: #3b82f6;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 700;
+  padding: 10px 20px;
+  border-radius: 6px;
+}
+.cta-link:hover {
+  background-color: #1d4ed8;
+  text-decoration: underline;
+}
