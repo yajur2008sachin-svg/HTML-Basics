@@ -1,0 +1,11 @@
+1. What is the CSS Box Model?
+The CSS Box Model is a layout concept where every HTML element is treated as a rectangular box. From the inside out, each box consists of four layers: content (text or images), padding (inner space around content), border (a line surrounding the padding), and margin (outer space separating the element from neighbors).
+
+2. Difference between margin and padding?
+Padding is the transparent space inside an element's border, between the content and the border itself. Margin is the transparent space outside an element's border, used to create distance between separate elements on the page.
+
+3. Difference between block and inline?
+A block element (like <div> or <p>) always starts on a new line and stretches to take up the full available width of its container. An inline element (like <span> or <a>) stays on the same line as surrounding text and only takes up as much width as its content needs, ignoring top/bottom margins and explicit width/height settings.
+
+4. Why do we use "box-sizing: border-box"?
+By default (content-box), adding padding or a border increases an element's total width and height beyond what you specified. Setting "box-sizing: border-box" forces the browser to include padding and borders inside the element's defined width and height, making layouts much easier to size and align accurately.
